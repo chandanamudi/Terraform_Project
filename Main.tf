@@ -5,9 +5,9 @@ provider "aws" {
 }
 
 resource "aws_instance" "my_ec2_instance123" {
-  ami           = "ami-0dee22c13ea7a9a67" # Change to your desired AMI
+  ami           = "ami-0866a3c8686eaeeba" # Change to your desired AMI
   instance_type =  "t2.micro"             # Change to your desired instance type
-  key_name = "Ajaykumar12334"
+  key_name = "Practice111"
 
   tags = {
     Name = "my_ec2_instance123"
