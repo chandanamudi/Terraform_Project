@@ -1,5 +1,7 @@
 provider "aws" {
   region = "ap-south-1"  # Change to your desired region
+  access_key = "YOUR_AWS_ACCESS_KEY"
+  secret_key = "YOUR_AWS_SECRET_KEY"
 }
 
 resource "aws_security_group" "my-security-group123" {
