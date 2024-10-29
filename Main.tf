@@ -1,7 +1,5 @@
 provider "aws" {
   region = "us-east-1"                   # Change to your desired region
-  access_key = "YOUR_AWS_ACCESS_KEY"
-  secret_key = "YOUR_AWS_SECRET_KEY"
 }
 
 resource "aws_instance" "my_ec2_instance123" {
